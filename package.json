@@ -1,0 +1,34 @@
+{
+  "name": "node-steam-userinfo",
+  "version": "0.0.1",
+  "description": "A simple module to get Steam user information from SteamID.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrej-naumovski/node-steam-userinfo.git"
+  },
+  "keywords": [
+    "node",
+    "steam",
+    "steam",
+    "user",
+    "user",
+    "info"
+  ],
+  "author": "Andrej Naumovski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrej-naumovski/node-steam-userinfo/issues"
+  },
+  "homepage": "https://github.com/andrej-naumovski/node-steam-userinfo#readme",
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
