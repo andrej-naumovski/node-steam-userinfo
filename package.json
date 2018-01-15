@@ -2,9 +2,10 @@
   "name": "node-steam-userinfo",
   "version": "0.0.1",
   "description": "A simple module to get Steam user information from SteamID.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel index.js --out-dir dist",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
